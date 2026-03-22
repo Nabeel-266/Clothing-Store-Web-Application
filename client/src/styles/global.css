@@ -1,0 +1,35 @@
+@import url("./components/hero.css");
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 10px;
+    font-family: "Parkinsans", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-lighter);
+  }
+
+  .input-appearance-none::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .custom-scroll::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #505050;
+    border-radius: 10rem;
+    cursor: grab;
+  }
+  .custom-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
