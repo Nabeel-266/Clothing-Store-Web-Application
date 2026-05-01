@@ -1,1 +1,1 @@
-# -Clothing-Store-Web-Application
+# Clothing-Store-Web-Application
